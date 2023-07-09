@@ -1,0 +1,11 @@
+1 Terebecki Mariusz
+2 przedstawia:
+3 program graficzny
+4 TM Graph v1.0
+5 dla VGA 256 kol.
+6 autor:
+7 Terebecki Mariusz
+6 ul. Ró¿ana 3/3
+5 64-100 Leszno
+4 telefon
+3 0605-524-292

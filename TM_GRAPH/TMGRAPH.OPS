@@ -1,0 +1,415 @@
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!! DOKUMENTACJA WYKONANA W STANDARDZIE LATIN-2 !!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+I. Wst©p
+
+	TMGraph jest typowym programem malarskim, umo¾liwiaj¥cym przygotowanie
+kolorowych  obrazk¢w. Dzi©ki zast¥pieniu tradycyjnego menu tekstowego zestawem
+ikonek  symbolizuj¥cych  poszczeg¢lne opcje staje si© bardzo przyjemn¥ praca z
+programem,  natomiast  zapis  grafiki  w  standardowym formacie graficznym BMP
+( BitMaP - zaprojektowanym przez firm© Microsoft ) umo¾liwia jej wykorzystanie
+w  innym  programie graficznym ( np. Paintbrush dla Windows tej samej firmy ).
+Program  wykorzystuje  tryb 256-kolorowy  karty  graficznej  VGA, dzi©ki czemu
+nadaje  si© r¢wnie¾ do obr¢bki zdj©†. Jedynym ograniczeniem jest zapis grafiki
+o  niezmiennej  wielko˜ci  320/200  punkt¢w z wykorzystaniem peˆnej palety 256
+kolor¢w,  co  w  pewnym  stopniu  ogranicza import grafiki z innych program¢w.
+Jednak  mimo  to  program  jest  godn¥  polecenia  pozycj¥  dla pocz¥tkuj¥cych
+grafik¢w ( i nie tylko ).
+
+II. Wymagania sprz©towe:
+
+Program  ten  posiada  niezbyt  wyg¢rowane wymagania sprz©towe. Aby instalacja
+byˆa mo¾liwa zestaw komputerowy musi speˆnia† nast©puj¥ce wymagania:
+
+ - system operacyjny DOS w wersji 3.1 lub p¢«niejszej
+ - komputer klasy IBM XT/AT lub zgodny
+ - minimum 300 kB wolnej pami©ci RAM
+ - przynajmniej 300 kB wolnej pami©ci na dysku
+ - zalecany dysk twardy lub ewentualnie nap©d dysk¢w elastycznych
+ - karta grafiki VGA lub SVGA
+ - mysz lub trackball ( praca bez myszy lub trackball'u jest niemo¾liwa ).
+ - zalecany kolorowy monitor.
+
+III. U¾ytkowanie programu
+
+1.) Uruchomienie
+
+Program uruchamiamy zleceniem TMGRAPH.EXE. Mo¾emy go uruchomi† z nast©puj¥cymi
+parametrami:
+-I, -i : program nie wy˜wietla informacji o autorze i dystrybutorach.
+-P, -p : wy˜wietlana jest pomoc kontekstowa podczas pracy u g¢ry ekranu.
+
+Podczas uruchomienia mog¥ wyst¥pi† nast©puj¥ce bˆ©dy:
+
+ - brak wolnej pami©ci RAM. Nale¾y w tym celu usun¥† z pami©ci zb©dne programy
+   rezyduj¥ce typu TSR.
+
+ - Mysz  nie  zainstalowana  lub  zˆy  typ myszy. Gdy sterownik myszy nie jest
+   zainstalowany,  to  nale¾y  go  przed  uruchomieniem programu zainstalowa†.
+   Gdy  natomiast program nie chce si© uruchomi† po zainstalowaniu sterownika,
+   to  oznacza,  ¾e  zainstalowany  sterownik  nie  jest  zgodny  z  wymaganym
+   ( np DEXA ).
+
+ - bˆ©dny parametr wywoˆania. Mo¾na poda† tylko dwa wy¾ej wymienione parametry
+   wywoˆania ( np TMGRAPH -i -p )
+
+2.) Obsˆuga
+
+Program obsˆugiwany jest wyˆ¥cznie przy pomocy myszy dwu- lub trzyklawiszowej.
+Za  pomoc¥  lewego  klawisza  myszy  mo¾emy  uruchomi†  dan¥ opcj© a za pomoc¥
+prawego   uzyska†   informacje   na  temat  wybranej  opcji.  Opcje  wybieramy
+w nast©puj¥cy spos¢b:
+
+Ustawiamy  kursor  myszy  na  wybranej  ikonie  symbolizuj¥cej  dan¥  opcj©  a
+nast©pnie  naciskamy  prawy  lub  lewy  klawisz myszy w zale¾no˜ci od tego, co
+chcemy  uzyska†.  Nazwa  opcji  jest  widoczna  w  g¢rnej  cz©˜ci  ekranu przy
+uruchomieniu programu z opcj¥ -p.
+
+3.) Opcje programu
+
+ PUNKT 
+
+Dzi©ki  tej  opcji  mo¾emy  na  ekranie  postawi†  punkt w uprzednio przez nas
+wybranym kolorze. Wyboru koloru dokonuje si© za pomoc¥ opcji < kolor rysowania
+>. Zmian© rozmiaru punktu dokonuje si© za pomoc¥ opcji < grubo˜† linii >. Przy
+wybranej  opcji  <  powtarzanie  rysowania  >  rysowane  s¥  punkty do momentu
+zwolnienia  lewego  klawisza  myszy, a przy dodatkowo wˆ¥czonej opcji < losowy
+kolor  rysowania > kolejne punkty rysowane s¥ w innej barwie ( losowo wybranej
+przez program ).
+
+ Linia 
+
+Opcja  ta  umo¾liwia  narysowanie  lini  prostej  w wybranym przez u¾ytkownika
+kolorze.  Lini©  rysujemy  w  nast©puj¥cy spos¢b: Naciskamy lewy klawisz myszy
+w punkcie,  kt¢ry  ma  stanowi† jeden koniec linii i przy naci˜ni©tym klawiszu
+ustalamy  punkt b©d¥cy drugim koäcem linii, a nast©pnie zwalniamy lewy klawisz
+myszy.  Wyboru  koloru  rysowanej  linii mo¾na dokona† za pomoc¥ opcji < kolor
+rysowania >.  Zmian©  grubo˜ci  linii  dokona† mo¾na za pomoc¥ opcji < grubo˜†
+linii >.  Przy  wˆ¥czonej opcji < losowy kolor rysowania > s¥ rysowane linie o
+losowo wybranym przez program kolorze.
+
+ Prostok¥t, sˆupek 
+
+Opcja  ta  umo¾liwia  narysowanie  prostok¥ta  w wybranym kolorze i z wybranym
+wypeˆnieniem.  Prostok¥t rysujemy w nast©puj¥cy spos¢b: Naciskamy lewy klawisz
+myszy  w  punkcie,  kt¢ry ma stanowi† lewy g¢rny wierzchoˆek prostok¥ta i przy
+naci˜ni©tym   klawiszu  ustawiamy  kursor  w  punkcie  b©d¥cym  prawym  dolnym
+wierzchoˆkiem  prostok¥ta,  a nast©pnie zwalniamy klawisz myszy. Wyboru koloru
+rysowanego  prostok¥ta mo¾na dokona† za pomoc¥ opcji < kolor rysowania >. Przy
+wˆ¥czonej  opcji <  losowy  kolor  rysowania >  s¥  rysowane boki prostok¥ta w
+losowo  wybranym  przez  program  kolorze. Przy wybranej opcji < wypeˆnianie >
+prostok¥t wypeˆniany jest zadanym wzorem w zadanym kolorze.
+
+ Okr¥g, koˆo
+
+Opcja   ta  umo¾liwia  narysowanie  koˆa  w  wybranym  kolorze  i  z  wybranym
+wypeˆnieniem.  Koˆo  rysujemy  w  nast©puj¥cy  spos¢b: Naciskamy klawisz myszy
+w  wybranym  punkcie  i przy wci˜ni©tym klawiszu okre˜lamy rozmiar ( promieä )
+rysowanego  koˆa.  Wyboru koloru rysowanego koˆa mo¾na dokona† za pomoc¥ opcji
+< kolor rysowania >.  Przy  wˆ¥czonej opcji <losowy kolor rysowania > rysowany
+jest  okr¥g  w  losowo  wybranym  przez  program  kolorze. Przy wybranej opcji
+< wypeˆnianie >  okr¥g  wypeˆniany  jest  zadanym  wzorem  w  zadanym kolorze.  
+
+ Elipsa
+
+Opcja  ta  umo¾liwia  narysowanie  elipsy  w  wybranym  kolorze  i  z wybranym
+wypeˆnieniem.  Elipse  rysujemy  w nast©puj¥cy spos¢b: Naciskamy klawisz myszy
+w  wybranym  punkcie  i  przy  wci˜ni©tym klawiszu okre˜lamy rozmiar rysowanej
+elipsy.  Wyboru  koloru rysowanej elipsy mo¾na dokona† za pomoc¥ opcji < kolor
+rysowania >.  Przy wˆ¥czonej opcji < losowy kolor rysowania > s¥ rysowana jest
+elipsa   o   losowo  wybranym  przez  program  kolorze.  Przy  wybranej  opcji
+< wypeˆnianie > elipsa wypeˆniana jest zadanym wzorem w zadanym kolorze.   
+
+ Wypeˆnianie obszar¢w 
+
+Opcja  ta umo¾liwia wypeˆnienia obszar¢w zamkni©tych wybranym kolorem. Kˆopotu
+mog¥  nastr©cza†  obszary,  kt¢re s¥ wypeˆnione barwami skˆadanymi z punkt¢w o
+innych  barwach.  Wypeˆniania  obszaru  dan¥  barw¥  dokonujemy  nast©puj¥co :
+Ustawiamy  kursor  myszy  w  wybranym  przez  nas  punkcie  i przyciskamy lewy
+klawisz.   Wtedy   pokazywany  jest  obszar,  kt¢ry  zostanie  wypeˆniony.  Po
+zwolnieniu   klawisza   myszy   obszar   zostanie  wypeˆniony.  Wyboru  koloru
+wypeˆniania  obszar¢w  dokonujemy  za pomoc¥ opcji < kolor wypeˆniania >. Przy
+wˆ¥czonej  opcji < losowy kolor wypeˆniania >  wypeˆniany  jest  obszar losowo
+wybranym  przez  program  kolorze.  Za pomoc¥ tej opcji mo¾na r¢wnie¾ zmienia†
+barw© narysowanych wcze˜niej linii. 
+
+ Rysowanie oˆ¢wkiem
+
+Narz©dzie  to  sˆu¾y  do  rysowania dowolnych linii i punkt¢w. —lad w wybranym
+kolorze  pozostawiany  jest  podczas  ci¥gni©cia  myszy  z  naci˜ni©tym  lewym
+klawiszem.  Aby zmieni† grubo˜† rysowanej oˆ¢wkiem linii nale¾y zaˆ¥czy† opcj©
+< grubo˜† linii >.  Zmian© koloru dokonujemy za pomoc¥ opcji < kolor rysowania
+>.  Przy  wˆ¥czonej  opcji  < losowy kolor rysowania >  jest  rysowana  krzywa
+w r¢¾nych barwach.     
+
+ Pisanie tekst¢w
+
+Opcja  ta umo¾liwia wprowadzanie tekstu w 2 r¢¾nych krojach pisma. Po wybraniu
+tej  opcji  nale¾y  wprowadzi†  tekst,  kt¢ry  b©dzie widoczny w g¢rnej cz©˜ci
+ekranu,  a  nast©pnie  zatwierdzi†  go lewym klawiszem myszy lub te¾ klawiszem
+< ENTER >.  Rezygnacjujem  z  wprowadzenia  danego  tekstu na ekran odbywa si©
+za  pomoc¥  prawego  przycisku mysz lub klawisza < ESC >. Polskie znaki nale¾y
+wprowadza†  w  kodach  MAZOVII,  np < ALT >< a > - > ¥ Po zatwierdzeniu tekstu
+nale¾y   ustali†   rozmiar   czcionki   za   pomoc¥   lewego  przycisku  myszy
+( przytrzymuj¥c go ).  Przesuwanie  tekstu  odbywa si© przy naci˜ni©tym prawym
+klawiszu   myszy.   Po  zwolnieniu  obu  klawiszy  tekst  zostaje  umieszczony
+w wybranym miejscu. Zmiany czcionki dokonuje si© za pomoc¥ opcji < czcionka >.
+Sterownik  polskiej  klawiatury w standardzie MAZOVII mo¾na otrzyma† gratisowo
+wraz  z  peˆn¥  wersj¥  po  doˆ¥czeniu  do  zam¢wienia  wˆasnych uwag i opinii
+dotycz¥cych programu.
+
+ Powtarzanie rysowania
+
+Opcja  ta  pozwala  na 'powielanie' rysowanych obiekt¢w. Przy u¾yciu tej opcji
+mo¾emy  tworzy†  bardzo ciekawe obrazy. Gdy opcja ta jest wˆ¥czona - wci˜ni©ty
+prostok¥t  -  przy  rysowaniu  dowolnego  obiektu  np.  lini  uzyskujemy  jego
+powielenie,   kt¢re   mo¾e   mie†   inne  rozmiary  w  por¢wnaniu  do  obiektu
+macie¾ystego. Rozmiar regulowany jest za pomoc¥ lewego przycisku myszy. Spos¢b
+powielania  jest charakterystyczny dla danego obiektu. Obiekty, kt¢re mog¥ by†
+powielane: punkt, linia, prostok¥t, okr¥g, elipsa, tekst.
+
+ Grubo˜† linii, wypeˆnianie, czcionka.
+
+Opcja ta jest wielozadaniowa. Za jej pomoc¥ mo¾emy zmienia† grubo˜† rysowanych
+obrys¢w  czy  te¾  linii,  okre˜li†  czy  dane  figury  geometryczne  maj¥ by†
+wypeˆniane,  czy  te¾  nie oraz mo¾emy okre˜la† rodzaj czcionki. Opcja ta jest
+aktywna,  wtedy  gdy  ikona  j¥  symbolizuj¥ca jest wci˜ni©ta. Zmiany grubo˜ci
+dokonujemy  przy  rysowaniu  nast©pujcych obiekt¢w: punkt, linia, ol¢wek. Przy
+wˆ¥czonej opcji rysowane linie s¥ grubsze. Gdy chcemy aby obiekty takie, jak :
+prostok¥t,  okr¥g,  elipsa  byˆy wypeˆnione zadanym wzorem ustalanym za pomoc¥
+opcji < odczytanie wzorka wypeˆniania > i w wybranym kolorze musimy uczyni† t¥
+opcj©  aktywn¥.  Opcja  ta pozwala tak¾e na zmian© kroju czcionki.Gdy opcja ta
+jest aktywna uzyskujemy pogrubion¥ czcionk©.
+
+ Losowy kolor rysowania
+
+Opcja < losowy kolor rysowania > pozwala na dobieranie koloru, przez komputer,
+rysowanych  obiekt¢w. Gdy opcja ta jest aktywna - wci˜ni©ta ikona symolizuj¥ca
+cienkie  r¢¾nokolorowe  linie  -  rysowane obiekty takie, jak: punkty, proste,
+krzywe,  tekst,  obrys prostok¥ta, elipsy, koˆa b©d¥ miaˆy kolor wybrany przez
+komputer,  niezale¾nie  od  ustawionego  za  pomoc¥ opcji < kolor rysowania >.
+Barwy  s¥ wybierane z zakresu barw palety ustawionego za pomoc¥ opcji < zakres
+koloru rysowania >.      
+
+ Losowy kolor wypeˆniania
+
+Opcja   < losowy kolor wypeˆniania >   pozwala  na  dobieranie  koloru,  przez
+komputer,  wypeˆnianych  obiekt¢w. Gdy opcja ta jest aktywna - wci˜ni©ta ikona
+symolizuj¥ca  grube  r¢¾nokolorowe  linie  -  wypeˆniane  obiekty  takie, jak:
+prostok¥t,  elipsa,  koˆo  b©d¥ miaˆy kolor wybrany przez komputer,niezale¾nie
+od  ustawionego  za  pomoc¥  opcji  < kolor wypeˆniania >.  Barwy s¥ wybierane
+z   zakresu   barw   palety   ustawionego   za  pomoc¥  opcji  < zakres koloru
+wypeˆniania >.
+
+ Nast©pny kolor rysowania
+
+Opcja  < nast©pny kolor rysowania >  pozwala  na  dobieranie koloru rysowanych
+obiekt¢w  przez komputer w taki spos¢b, ¾e kolejny rysowany obiekt b©dzie miaˆ
+barw©  kolejn¥  z wybranego zakresu kolor¢w rysowania ( opcja < zakres kolor¢w
+rysowania > ). Gdy  opcja ta jest aktywna - wci˜ni©ta ikona symolizuj¥ca opcj©
+- rysowane  obiekty  takie,  jak:  punkty,  linie proste, krzywe, tekst, obrys
+prostok¥ta,  elipsy, koˆa b©d¥ miaˆy kolor wybrany przez komputer, niezale¾nie
+od  ustawionego  za pomoc¥ opcji < kolor rysowania >. Opcja ta nie dziaˆa przy
+wˆ¥czonej opcji < losowy kolor rysowania >.   
+
+ Poprzedni kolor rysowania
+
+Opcja o dziaˆaniu przeciwnym do opcji ( Nast©pny kolor rysowania).
+
+ Nast©pny kolor wypeˆniania
+
+Opcja o dziaˆaniu podobnym do opcji ( Nast©pny kolor rysowania ) y tym, ¾e
+odnosi si© do koloru wypeˆniania.
+
+ Poprzedni kolor wypeˆniania
+
+Opcja o dziaˆaniu przeciwnym do opcji ( Nast©pny kolor wypeˆniania ).
+
+ Do schowka 
+
+Opcja  ta  pozwala  na  zachowanie  danego  obrazka w podr©cznym schowku. Taki
+obrazek mo¾na p¢«niej wczyta† ze schowka przy pomocy opcji < ze schowka >.
+
+ ZE SCHOWKA
+
+Opcja  ta pozwala na odtworzenie obrazka zapami©tanego w podr©cznym schowku za
+pomoc¥  opcji  < do schowka >.  Gdy  nie ma ¾adnego obrazka w schowku aktualny
+rysunek  nie  zostanie zmieniony. Natomiast gdy schowek zawieraˆ ju¾ wcze˜niej
+zapamientany  rysunek,  to  aktualny rysunek zostanie zast¥piony tym zapisanym
+w schowku.       
+
+ Ogl¥danie obrazka 
+
+Opcja  ta  pozwala  na  podgl¥d  tworzonego przez nas rysunku. Po wybraniu tej
+opcji wy˜wietlany jest rysunek do momentu naci˜ni©cia jednego z klawiszy myszy.
+
+ Kolor rysowania 
+
+Opcja ta pozwala na ustalanie koloru rysowanego obiektu. Po wybraniu tej opcji
+ukazana  b©dzie  caˆa  paleta  barw  z kt¢rej to mo¾na wybra† barw© rysowanego
+obiektu.  Aktualnie  wybrany  kolor  wy˜wietlany  jest w postaci pasku poni¾ej
+palety  barw. Zatwierdzenie danego koloru odbywa si© za pomoc¥ lewego klawisza
+myszy, natomiast rezygnacja za pomoc¥ prawego klawisza myszy. Po zatwierdzeniu
+danej  barwy  obiekty  takie,  jak: punkty, linie proste, krzywe, tekst, obrys
+prostok¥ta, elipsy, koˆa b©d¥ miaˆy kolor wybrany przez u¾ytkownika. Aktualnie
+rysowany  obiekt  mo¾e  mie† inn¥ barw© ni¾ wybrana przez u¾ytkownika, jedynie
+w  przypadku  aktywnej  opcji :  < losowy kolor rysowania >,  < nast©pny kolor
+rysowania >, < poprzedni kolor rysowania >. 
+
+ Kolor wypeˆniania 
+
+Opcja  ta  pozwala na ustalanie koloru wypeˆnianego przedmiotu ( obiektu ). Po
+wybraniu  tej  opcji  ukazana b©dzie caˆa paleta barw z kt¢rej to mo¾na wybra†
+barw©,  kt¢r¥  ma  by†  wypeˆniany obiekt. Aktualnie wybrany kolor wy˜wietlany
+jest  w  postaci pasku poni¾ej palety barw. Zatwierdzenie danego koloru odbywa
+si©  za  pomoc¥  lewego klawisza myszy, natomiast rezygnacja za pomoc¥ prawego
+klawisza  myszy.  Po  zatwierdzeniu danej barwy obiekty takie, jak: prostok¥t,
+elipsa,   koˆo   b©d¥   miaˆy  kolor  wypeˆnienia  wybrany  przez  u¾ytkownika
+(  w  przypadku  wˆ¥czonej  opcji < wypeˆnianie > ). Aktualnie rysowany obiekt
+mo¾e  mie†  inn¥  barw©  ni¾  wybrana  przez  u¾ytkownika  jedynie w przypadku
+aktywnej opcji : < losowy kolor wypeˆniania >, < nast©pny kolor wypeˆniania >,
+< poprzedni kolor wypeˆniania >. 
+
+ Zakres kolor¢w rysowania
+
+Opcja  ta  pozwala  na  wybranie  zakresu barw z aktualnej palety barw. Z tego
+zakresu  barw  b©d¥  wybierane  barwy  przy  aktywnych  opcjach < losowy kolor
+rysowania,   < nast©pny kolor rysowania >,  < poprzedni kolor rysowania >.  Po
+wybraniu  tej  opcji  ukazana  b©dzie  caˆa  paleta barw. Nale¾y wtedy wskaza†
+kursorem  myszy  barw©,  kt¢ra  ma  stanowi†  pocz¥tek  zakresu i wcisn¥† lewy
+klawisz  myszy. Nast©pnie przy wci˜ni©tym lewym klawiszu nale¾y wskaza† barw©,
+kt¢ra  ma  stanowi†  koniec  przedziaˆu i zwolni† klawisz. Poni¾ej palety barw
+caˆy  czas  wy˜wietlany  jest  aktualny  zakres  wybranych barw. Zatwierdzenie
+danego   zakresu  odbywa  si©  za  pomoc¥  lewego  klawisza  myszy,  natomiast
+rezygnacja za pomoc¥ prawego klawisza myszy.  
+
+ Zakres kolor¢w wypeˆniania
+
+Opcja  ta  pozwala  na  wybranie  zakresu barw z aktualnej palety barw. Z tego
+zakresu  barw  b©d¥  wybierane  barwy  przy  aktywnych  opcjach < losowy kolor
+wypeˆniania > < nast©pny kolor wypeˆniania >, < poprzedni kolor wypeˆniania >.
+Po  wybraniu  tej  opcji ukazana b©dzie caˆa paleta barw. Nale¾y wtedy wskaza†
+kursorem  myszy  barw©,  kt¢ra  ma  stanowi†  pocz¥tek  zakresu i wcisn¥† lewy
+klawisz  myszy. Nast©pnie przy wci˜ni©tym lewym klawiszu nale¾y wskaza† barw©,
+kt¢ra  ma  stanowi†  koniec  przedziaˆu i zwolni† klawisz. Poni¾ej palety barw
+caˆy  czas  wy˜wietlany  jest  aktualny  zakres  wybranych barw. Zatwierdzenie
+danego   zakresu  odbywa  si©  za  pomoc¥  lewego  klawisza  myszy,  natomiast
+rezygnacja za pomoc¥ prawego klawisza myszy. 
+
+ Czyszczenie ekranu. 
+
+Po  wybraniu  tej  opcji  nast©puje wyczyszczenie zawarto˜ci ekranu. Tak wi©c,
+utworzony   wcze˜niej   rysunek   zostanie   zatracony,  bez  mo¾liwo˜ci  jego
+odzyskania.
+
+Uwaga!!! Nale¾y si© ostro¾nie posˆugiwa† t¥ opcj¥, gdy¾ mo¾na w bardzo kr¢tkim
+czasie utraci† efekt swojej dˆugotrwaˆej pracy.  
+
+ Zapisanie palety barw
+
+Opcja ta pozwala na zapisanie palety kolor¢w. Ka¾dy rysunek bowiem ma wˆa˜ciw¥
+sobie  palet© barw. Po wybraniu tej opcji nale¾y poda† nazw© pliku, do kt¢rego
+ma  by†  zapisana paleta. Mo¾na zapisa† palet© kolor¢w na innym dyku i w innym
+katalogu ni¾ bie¾¥cy. Nale¾y najpierw nacisn¥† lewy przyciskiem myszy na ikon©
+z  nazw¥  nap©du.  Je˜li nap©d b©dzie gotowy do pracy to zostanie on uczyniony
+aktualnym.  Aby dokona† zmiany katalogu, nale¾y ustawi† kursor myszy na ikonie
+z  nazw¥  katalogu  a  nast©pnie  nacisn¥†  lewy  klawisz  myszy. Wtedy mo¾emy
+wprowadzi†  jego nazw©. Je˜li katalog o podanej przez nas nazwie nie istnieje,
+to  program  przywr¢ci  pierwotne  ustawienia. Taki sam efekt mo¾na uzyska† po
+wybraniu   ikony   Standard.   Decyzj©  nasz¥  o  wybranym  pliku  i  katalogu
+zatwierdzamy  po  wybraniu ikony OK. Rezygnacj© z wczytania danych uzyskamy po
+wybraniu ikony Anuluj.
+
+ Wczytanienie palety 
+
+Opcja  ta  pozwala  na  wczytanie palety kolor¢w. Po wybraniu tej opcji nale¾y
+wybra†  plik  z  zapisan¥  palet¥  barw. Wybieraj¥c ikon© z nazw¥ pliku palety
+ukazuje  si©  nam nazwa kolejnego pliku. Mo¾na wczyta† palet© kolor¢w z innego
+dyku  i  z innego katalogu ni¾ bie¾¥cy. Nale¾y najpierw nacisn¥† lewy przycisk
+myszy  na ikon© z nazw¥ nap©du. Je˜li nap©d b©dzie gotowy do pracy to zostanie
+on  uczyniony  aktualnym.  Aby  dokona† zmiany katalogu, nale¾y ustawi† kursor
+myszy  na  ikonie  z  nazw¥  katalogu a nast©pnie nacisn¥† lewy klawisz myszy.
+Wtedy  mo¾emy  wprowadzi† jego nazw©. Je˜li katalog o podanej przez nas nazwie
+nie  istnieje, to program przywr¢ci pierwotne ustawienia. Taki sam efekt mo¾na
+uzyska†  po wybraniu ikony Standard. Decyzj© nasz¥ o wybranym pliku i katalogu
+zatwierdzamy  po  wybraniu  ikony OK. Rezygnujemy z wczytania palety za pomoc¥
+ikony Anuluj.
+
+ Zapisanie wzorka wypeˆniania
+
+Opcja  ta pozwala na zapisanie wzorka wypeˆniania. Po wybraniu tej opcji mo¾na
+dokona†    edycji    wzorka    Wzorek   edytujemy   w   nast©puj¥cy   spos¢b :
+Istnieje  pole  8x8  punkt¢w.  Gdy chcemy aby dany punkt byˆ aktywny naciskamy
+lewy  klawisz myszy. Wtedy aktywny ( kolor r¢¾owy ) punkt staje si© nieaktywny
+( kolor szary )  i  na  odwr¢t.  W  g¢rny  prawym rogu jest widoczna caˆy czas
+ikonka z edytowanym wzorkiem. Po jej naci˜ni©ciu przywr¢cony zostaje pierwotny
+wz¢r.  Po  zatwierdzeniu  jego ksztaˆtu za pomoc¥ ikony OK mo¾na zapisa† go na
+dysku  pod  podan¥  nazw¥ Mo¾liwy jest zapis na innym dyku i w innym katalogu,
+ni¾  bie¾¥cy. Nale¾y najpierw nacisn¥† lewy przyciskiem myszy na ikon© z nazw¥
+nap©du. Je˜li nap©d b©dzie gotowy do pracy to zostanie on uczyniony aktualnym.
+Dokonuj¥c  zmiany  katalogu,  nale¾y  ustawi†  kursor  myszy na ikonie z nazw¥
+katalogu a nast©pnie nacisn¥† lewy klawisz myszy. Wtedy mo¾emy wprowadzi† jego
+nazw©.  Je˜li  katalog  o  podanej  przez  nas nazwie nie istnieje, to program
+przywr¢ci pierwotne ustawienia. Taki sam efekt mo¾na uzyska† po wybraniu ikony
+Standard. Decyzj© nasz¥ o wybranym  pliku zatwierdzamy ikon¥ OK. 
+
+ Wczytanienie wzorka wypeˆniania
+
+Opcja  ta pozwala na wczytanie wzoru wypeˆniania. Po wybraniu tej opcji nale¾y
+wybra†  nazw© plik z zapisanym wzorkiem. Wybieraj¥c ikon© z nazw¥ pliku wzorku
+ukazuje  si©  nam  nazwa kolejnego pliku. Mo¾na wczyta† wzorek z innego dyku i
+z  innego  katalogu  ni¾  bie¾¥cy.  Nale¾y  w  tym celu najpierw nacisn¥† lewy
+przyciskiem  na  ikonie  z nazw¥ nap©du. Je˜li nap©d b©dzie gotowy do pracy to
+zostanie  on  uczyniony aktualnym. Aby dokona† zmiany katalogu, nale¾y ustawi†
+kursor  myszy  na  ikonie  z  nazw¥ katalogu a nast©pnie nacisn¥† lewy klawisz
+myszy.  Wtedy  mo¾emy wprowadzi† jego nazw©. Je˜li katalog o podanej przez nas
+nazwie nie istnieje, to program przywr¢ci pierwotne ustawienia. Taki sam efekt
+mo¾na  uzyska†  po  wybraniu  ikony  Standard.  Decyzj© nasz¥ o wybranym pliku
+i katalogu zatwierdzamy po wybraniu ikony OK.
+
+ Zapisanie rysunku 
+
+Opcja  ta  pozwala  na  zapisanie  opracowanego rysunku. Po wybraniu tej opcji
+nale¾y  poda†  nazw©  pliku,  pod kt¢r¥ ma by† zapisany rysunek. Mo¾na zapisa†
+rysunek na innym dyku i w innym katalogu ni¾ bie¾¥cy. Nale¾y najpierw nacisn¥†
+lewy  przyciskiem myszy na ikonie z nazw¥ nap©du. Je˜li nap©d b©dzie gotowy do
+pracy  to zostanie on uczyniony aktualnym. Aby dokona† zmiany katalogu, nale¾y
+ustawi†  kursor  myszy  na  ikonie  z nazw¥ katalogu a nast©pnie nacisn¥† lewy
+klawisz  myszy.  Wtedy  mo¾emy  wprowadzi† jego nazw©. Je˜li katalog o podanej
+przez nas nazwie nie istnieje, to program przywr¢ci pierwotne ustawienia. Taki
+sam  efekt  mo¾na uzyska† po wybraniu ikony Standard. Decyzj© nasz¥ o wybranym
+pliku i katalogu zatwierdzamy po wybraniu ikony OK. 
+
+ Odczytanienie rysunku
+
+Opcja  ta  pozwala na wczytanie wcze˜niej utworzonego rysunku. Po wybraniu jej
+nale¾y ustali† nazw© pliku. Wybieraj¥c ikon© z nazw¥ pliku rysunku ukazuje si©
+nam  nazwa  kolejnego  pliku.  Mo¾na  wczyta† rysunek z innego dyku i z innego
+katalogu ni¾ bie¾¥cy. Nale¾y najpierw nacisn¥† lewy przyciskiem myszy na ikon©
+z  nazw¥  nap©du.  Je˜li nap©d b©dzie gotowy do pracy to zostanie on uczyniony
+aktualnym.  Aby dokona† zmiany katalogu, nale¾y ustawi† kursor myszy na ikonie
+z  nazw¥  katalogu  a  nast©pnie  nacisn¥†  lewy  klawisz  myszy. Wtedy mo¾emy
+wprowadzi†  jego nazw©. Je˜li katalog o podanej przez nas nazwie nie istnieje,
+to  program  przywr¢ci  pierwotne  ustawienia. Taki sam efekt mo¾na uzyska† po
+wybraniu   ikony   Standard.   Decyzj©  nasz¥  o  wybranym  pliku  i  katalogu
+zatwierdzamy po wybraniu ikony OK. 
+
+ Informacja
+
+Opcja  ta  pozwala  na  wy˜wietlenie  informacji  o programie. Po jej wybraniu
+wy˜wietlana  jest informacja, ta kt¢r¥ mo¾na obejrze† po uruchomieniu programu
+bez podania parametru -i.            
+
+ Koniec
+
+Opcja  ta  pozwala  na opuszczenie programu. Po jej wybraniu praca z programem
+zostaje  zakoäczona.  Gdy nie zostan¥ zapisane modyfikacje rysunku przy pomocy
+opcji < zapisanie rysunku > to zmiany w rysunku nie zostan¥ zapami©tane.
+
+IV. Informacja
+
+Autor			:	Mariusz Terebecki
+Kod, Miejscowo˜†	:	64-100 Leszno
+Ulica			:	Ró¿ana 3/3
+Telefon			:	0605-524-292
